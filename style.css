@@ -1,0 +1,280 @@
+/*<!----------------------list-down-menu--------------------------------------->*/
+
+#li2:hover{
+	background-color: #3e8e41;
+transition-duration:  0.19s;
+	transition-timing-function: ease-in;
+	}
+	
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 125px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {display:block;}
+
+
+.dropdown:hover .dropbtn 
+{
+background-color: #3e8e41;
+transition-duration:  0.19s;
+	transition-timing-function: ease-in;
+	}
+	
+	
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width:100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {display:block;}
+
+
+.dropdown:hover .dropbtn 
+{
+background-color: #3e8e41;
+transition-duration:  0.19s;
+	transition-timing-function: ease-in;
+	}
+
+          /*<!-----------------------------------------SEARCH BAR--------------------------------------------------->*/
+
+      .topnav {
+  overflow: hidden;
+  float:left;
+  margin-left: 220px;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width:300px;
+  padding-left: 10px;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+
+
+/*<!------------------------------------------------------button----------------------------------------------------->*/
+
+.button1
+{
+  margin-left:35%;
+}
+#ss
+{font-family: 'Libre Baskerville', serif;
+}
+.head1
+{
+font-family: 'Abril Fatface', cursive;
+}
+
+#li2
+{
+  margin-right: 20px;
+}
+ 
+ /*<!-----------------------------------------------SIDE BAR-------------------------------->*/
+
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+#cls3
+{
+  width: 100%;
+  height: auto;
+   filter: contrast(80%);
+   background-attachment:fixed;
+   clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
+   position: relative;
+}
+
+
+#cls2
+{
+  width: 100%;
+  height: auto;
+ filter: contrast(80%);
+ background-attachment:fixed;
+  clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
+  position: relative;
+}
+#cls1
+{
+  width: 100%;
+  height: auto;
+  filter: contrast(79%);
+  background-attachment:fixed;
+ clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
+position: relative;
+}
+
+#hi
+{
+  opacity: 1;
+}
+
+#ptag
+{
+  padding-top: 15px;
+  font-size: 1.5em;
+}
+
+.carousel-content
+{
+
+  position: absolute;
+  bottom: 50%;
+  left: 20%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+
+}
+
+#hh1
+{
+  font-size:150px;
+}
+
+.button1
+{
+  margin-left:45%;
+ font-size: 30px;
+ margin-top: 20px;
+
+}
+
+/*<!---------------------------------footer----------------------------------------->*/
+
+  .site{
+      margin-top:20px;
+  }
+  .site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+
+.site-footer h2
+{
+  color:#fff;
+  font-size:18px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.copyright-text
+{
+  margin:0
+}
+
+
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.foootimg
+{margin-top:10px;
+margin-bottom:20px;
+height:110px;
+}
